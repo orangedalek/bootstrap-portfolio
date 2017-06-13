@@ -3,56 +3,68 @@
 <head>
 <!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
 	<meta charset="UTF-8">
 	<title>bootstrap portfolio</title>
 </head>
 <body>
-
+<!-- container for body of document -->
+	<div class="container" id="main-container">
 
 <!-- header/nav bar -->
 		<nav class="navbar navbar-default">
 		  <div class="container-fluid">
 		    <div class="navbar-header">
-		      <h1 class="navbar-brand" style="margin-left: 120px">Jennie Snider</h1> 
+		      <h1 id="logo">Jennie Snider</h1> 
 		    </div>
-		    <ul class="nav navbar-right" style="margin-right: 125px; padding-top: 15px;">
-		      <li style="display: inline-block;	"><a href="#">About</a></li>
-		      <li style="display: inline-block;"><a href="#">Portfolio</a></li>
-		      <li style="display: inline-block;"><a href="#">Contact</a></li>
+		    <ul class="nav navbar-right">
+		      <li id="navLinks"><a href="#">About</a></li>
+		      <li id="navLinks"><a href="#">Portfolio</a></li>
+		      <li id="navLinks"><a href="#">Contact</a></li>
 		    </ul>
 		  </div>
 		</nav>
 <!-- container for body of document -->
-	<div class="container">
+
+
 <!-- row 2 containing two columns: about and panel -->
 
-	<div class="row">
-		<div class="col-md-8">
-			<h1>About Me</h1>
-			<hr>
-		</div>
-		<div class="col-md-4">
-			<div class="panel panel-default">
-  			<div class="panel-heading">Sidebar</div>
-			<div class="panel-body">Sidebar Content</div>
-		</div>
+	<div class="container" id="section-container">
+		<div class="row">
+			<div class="col-md-8">
+				<h1>About Me</h1>
+				<hr>
+				<img class="thumbnail" id="profile-pic" src="assets/images/profile.jpg"  alt="Selfie in the garden at Versailles">
+				<p>I grew up in Wisconsin, went to college in Indianapolis, and moved to San Francisco in 2002. I spent most of 2016 in New Orleans, where I dressed up as a pirate and sold absinthe to tourists. In December, I moved back to the Bay Area and am now living in Oakland.</p>
+
+				<p>When I’m not in class learning to code, I’m a freelance writer. I also enjoy riding my bikes (the pedal kind, not the vroom vroom kind,) cooking, reading books with pictures, highbrow beer, live music, reading books without pictures, comedy, lowbrow wine, smelly cheeses (ask me about the cheese factory century,) cats, record collecting, cooking, and non-smelly cheeses.</p>
+
+			</div>
+
+			<div class="col-md-4">
+				<div class="panel panel-default">
+		  			<div class="panel-heading">Connect With Me</div>
+						<div class="panel-body">
+							<a href="https://github.com/orangedalek"><img src="assets/images/github.png" alt="GitHib"></a>
+							<a href="https://www.linkedin.com/in/jennielannan/"><img src="assets/images/linkedin.png" alt="LinkedIn"></a>
+							<a href="https://stackoverflow.com/users/8075607/oangedalek"><img src="assets/images/stackoverflow.png" alt="StackOverflow"></a>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 
-<!-- row 3 containing three columns: profile photo, text, and a blank area -->
 
-	<div class="row">
-		<div class="col-md-2">
-			<img src="http://1.bp.blogspot.com/-E0u14IOPeoQ/U6hfMklj3mI/AAAAAAAACHs/g1EIj6z3Qps/s1600/Puffer-fish+poison.jpg" style="height: 150px">
+
+	<footer class="col-md-12 container-fluid text-center navbar-fixed-bottom">
+		<div>
+			<p>&copy; copyright 2017 Jennie Snider</p>
 		</div>
-		<div class="col-md-6">
-			<p>leo pretium id. Etiam vitae fermentum nunc. Integer id bibendum lacus. Sed sollicitudin mollis tellus non porttitor. Vivamus vitae ex nisl. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam ut aliquam lectus. Nunc ac lectus sollicitudin, finibus arcu et, consectetur nulla.</p>
-		</div>
-		
-	</div>
+	</footer>
 
 
-</div>
+
 
 	
 </body>
