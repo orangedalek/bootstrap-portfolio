@@ -36,7 +36,8 @@ html, body{
 h1,
 h2,
 h3,
-.panel-heading {
+.panel-heading,
+#portfolio-caption {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: #4aaaa5;
@@ -95,13 +96,17 @@ nav{
 
 }
 
+.work{
+  width: 25%;
+}
+
 
 
 /*portfolio*/
 #portfolio-caption{
   position: absolute;
   bottom: 20px;
-  width: 100%;
+  width: 85%;
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
@@ -111,6 +116,7 @@ nav{
   background: #4aaaa5;
   border-bottom: 0;
   }
+
 
 
 footer{
